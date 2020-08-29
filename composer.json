@@ -1,0 +1,21 @@
+{
+  "name": "quinten/contact",
+  "description": "Extend Magento 2 Contact module",
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0"
+  ],
+  "require": {
+    "php": "~5.6.0|>=7.0.0",
+    "magento/framework": ">=100.0.0",
+    "magento/module-contact": ">=100.0.0"
+  },
+  "autoload": {
+      "files": [
+          "registration.php"
+      ],
+      "psr-4": {
+          "Webwolk\\Contact\\": ""
+      }
+  }
+}
